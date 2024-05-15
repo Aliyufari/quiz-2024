@@ -68,6 +68,9 @@
     case 'home':
         require'views/home.php';
         break;
+    case 'teachers':
+        require'views/teachers/index.php';
+        break;
     default:
         require'views/auth/login.php';
         break;

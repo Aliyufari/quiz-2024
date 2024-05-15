@@ -28,12 +28,20 @@
                                             placeholder="Last Name">
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <input 
-                                        type="text" 
-                                        class="form-control form-control-user" 
-                                        name="username"
-                                        placeholder="Username">
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input 
+                                            type="text" 
+                                            class="form-control form-control-user" 
+                                            name="username"
+                                            placeholder="Username">
+                                    </div>
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <select name="" class="form-control form-control-user d-flex align-items-center justify-content-center">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <input 
